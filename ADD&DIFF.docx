@@ -1,0 +1,18 @@
+1. START  
+2. DECLARE num1, num2, operator, result  
+3. DISPLAY "Enter first number:"  
+4. INPUT num1  
+5. DISPLAY "Enter operator (+ or -):"  
+6. INPUT operator  
+7. DISPLAY "Enter second number:"  
+8. INPUT num2 
+9. IF operator is '+' THEN  
+10.      result = num1 + num2  
+11. ELSE IF operator is '-' THEN  
+12.      result = num1 - num2  
+13. ELSE  
+14.      DISPLAY "Invalid operator!"  
+15.      STOP  
+16. ENDIF 
+17. DISPLAY "Result:", result  
+18. STOP  
