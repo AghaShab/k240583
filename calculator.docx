@@ -1,0 +1,35 @@
+1. START  
+2. PRINT "Enter first number:"  
+3. READ num1  
+4. PRINT "Enter an operator (+, -, *, /, %):"  
+5. READ operator  
+6. PRINT "Enter second number:"  
+7. READ num2  
+
+8. IF operator = '+' THEN  
+9.     PRINT "Result ="  
+10.    PRINT num1 + num2  
+11. ELSE IF operator = '-' THEN  
+12.    PRINT "Result ="  
+13.    PRINT num1 - num2  
+14. ELSE IF operator = '*' THEN  
+15.    PRINT "Result ="  
+16.    PRINT num1 * num2  
+17. ELSE IF operator = '/' THEN  
+18.    IF num2 = 0 THEN  
+19.        PRINT "Error! Division by zero is not allowed"  
+20.    ELSE  
+21.        PRINT "Result ="  
+22.        PRINT num1 / num2  
+23.    END IF  
+24. ELSE IF operator = '%' THEN  
+25.    IF num2 = 0 THEN  
+26.        PRINT "Error! Modulo by zero is not allowed"  
+27.    ELSE  
+28.        PRINT "Result ="  
+29.        PRINT num1 % num2  
+30.    END IF  
+31. ELSE  
+32.    PRINT "Invalid operator!"  
+33. END IF  
+34. END  
