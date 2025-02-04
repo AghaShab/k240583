@@ -1,0 +1,14 @@
+1. START  
+2. DECLARE sum, x, y, z  
+3. DISPLAY "Enter three numbers:"  
+4. INPUT x, y, z  
+
+5. REPEAT y TIMES:  
+6.      x = x + 1  
+
+7. REPEAT z TIMES:  
+8.      x = x + 1  
+
+9. SET sum = x  
+10. DISPLAY "The total sum is:", sum  
+11. STOP  
