@@ -1,0 +1,12 @@
+1. START  
+2. DECLARE three variables: x, y, z  
+3. DISPLAY "Enter three values:"  
+4. INPUT x, y, z  
+5. IF x is greater than or equal to both y and z THEN  
+6.      DISPLAY "The largest value is", x  
+7. ELSE IF y is greater than or equal to both x and z THEN  
+8.      DISPLAY "The largest value is", y  
+9. ELSE  
+10.      DISPLAY "The largest value is", z  
+11. ENDIF  
+12. STOP  
